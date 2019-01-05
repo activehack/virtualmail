@@ -6,8 +6,8 @@ Powered by:
 
 Subsystem powered by:
 - alpine
-- php7
-- exim
-- dovecot
-- roundcube
-- postgresql
+- php7 (backend for roundcube)
+- exim (smtp)
+- dovecot (pop3, imap)
+- roundcube (webmail)
+- postgresql (backend for exim, dovecot and roundcube)
